@@ -13,7 +13,7 @@ vim.keymap.set('n', '<leader>x', ':q<CR>') -- close a tab
 vim.keymap.set('n', '<C-Left>', ':tabp<CR>') -- switching tabs
 vim.keymap.set('n', '<C-Right>', ':tabn<CR>') -- switching tabs
 vim.keymap.set('n', '<Tab>', ':tabn<CR>') -- switching tabs
-vim.keymap.set('n', '<S-Tab>', ':tabn<CR>') -- switching tabs
+vim.keymap.set('n', '<S-Tab>', ':tabp<CR>') -- switching tabs
 
 
 -- terminal toggle --
