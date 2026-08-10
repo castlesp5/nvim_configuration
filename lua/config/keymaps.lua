@@ -6,6 +6,7 @@ vim.g.mapleader = ' '
 vim.keymap.set('n', ';', ':') -- mapping ; to :
 vim.keymap.set('n', '<C-s>', ':w<CR>') -- saves with <CTRL + S>
 vim.keymap.set('n', '<leader>/', 'gcc', {remap=true}) -- comments the whole line
+vim.keymap.set('v', '<leader>/', 'gcc', {remap=true}) -- comments the whole line
 
 -- navigate your tabs -- 
 vim.keymap.set('n', '<C-n>', ':tabnew<CR>') -- creates a new empty tab
