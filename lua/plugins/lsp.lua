@@ -23,7 +23,29 @@ return {
             },
           },
         },
-        pyright = {},
+	--        pyright = {
+	-- 	--  settings = {
+	-- 	--    python = {
+	-- 	--      analysis = {
+	-- 	-- typeCheckingMode = "off", -- or "off"
+	-- 	-- diagnosticSeverityOverrides = {
+	-- 	--   reportPrivateUsage = "none",
+	-- 	--   reportUnknownMemberType = "none",
+	-- 	-- },
+	-- 	--      },
+	-- 	--    },
+	-- 	--  },
+	-- },
+	pylsp = {
+	  settings = {
+	    pylsp = {
+	      plugins = {
+		pydocstyle = { enabled = false },
+		pycodestyle = { enabled = false },
+	      },
+	    },
+	  },
+	},
         ts_ls = {},
       }
 
