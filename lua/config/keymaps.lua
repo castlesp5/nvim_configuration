@@ -9,6 +9,8 @@ vim.keymap.set('n', '<leader>/', 'gcc', {remap=true}) -- comments the whole line
 vim.keymap.set('v', '<leader>/', 'gcc', {remap=true}) -- comments the whole line
 vim.keymap.set('v', '<', '<gv') -- identate to left
 vim.keymap.set('v', '>', '>gv') -- identate to right
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selection down" })
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move selection up" })
 
 -- navigate your tabs -- 
 vim.keymap.set('n', '<C-n>', ':tabnew<CR>') -- creates a new empty tab
