@@ -46,7 +46,6 @@ return {
 	    },
 	  },
 	},
-        ts_ls = {},
       }
 
       -- Install missing binaries seamlessly through the bridge
